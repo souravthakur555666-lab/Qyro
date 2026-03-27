@@ -6,16 +6,13 @@ import { useState, useEffect, useRef, useCallback } from "react";
 
 // ── Firebase SDK (loaded via CDN in useEffect) ────────────────
 const FB_CONFIG = {
-  apiKey: "AIzaSyD3okYonYPEMOKCZizw6p6xGtFERE3xfDw",
+  apiKey: E
   authDomain: "keta-982c8.firebaseapp.com",
   databaseURL: "https://keta-982c8-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "keta-982c8",
   storageBucket: "keta-982c8.firebasestorage.app",
   messagingSenderId: "108017338904",
-  appId: "1:108017338904:web:4af266b0bb435e5525516d"
-};
-
-const GEMINI_KEY = "AIzaSyCiCXvGnSnrXJH39fHQz7df3HF_Kqqw5Ys";
+  appId: "1:108017338904:web:4af266b0bb435e552qqw5Ys";
 
 // ── Subject Database ─────────────────────────────────────────
 const SUBJECTS = {
